@@ -23,9 +23,11 @@ void linhasInfe(Vertice ponto1, Vertice ponto2){
 
     for(int i=ponto1.x; i<=ponto2.x; i++){
         ponto1.x = i;
+
         ponto1.cor.r += incrementR;
         ponto1.cor.g += incrementG;
         ponto1.cor.b += incrementB;
+
         putPixel(ponto1);
         
         if(decision > 0){
@@ -54,9 +56,11 @@ void linhasSupe(Vertice ponto1, Vertice ponto2){
 
     for(int i=ponto1.y; i<=ponto2.y; i++){
         ponto1.y = i;
+
         ponto1.cor.r += incrementR;
         ponto1.cor.g += incrementG;
         ponto1.cor.b += incrementB;
+       
         putPixel(ponto1);
 
         if(decision > 0){
