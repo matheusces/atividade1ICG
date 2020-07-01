@@ -117,22 +117,29 @@ void MyGlDraw(void) {
     ponto1.cor.r = 0;
     ponto1.cor.g = 255;
     ponto1.cor.b = 255;
+
+    ponto2.cor.r = 0;
+    ponto2.cor.g = 0;
+    ponto2.cor.b = 255;
     
-    ponto1.x = 4;
-    ponto1.y = 0;
+    ponto3.cor.r = 0;
+    ponto3.cor.g = 100;
+    ponto3.cor.b = 100;
+    
+    ponto1.x = 50;
+    ponto1.y = 400;
     putPixel(ponto1);
-    ponto1.x = 4;
-    ponto1.y = 1;
+    ponto1.x = 50;
+    ponto1.y = 401;
     putPixel(ponto1);
-    ponto1.x = 4;
-    ponto1.y = 2;
-    putPixel(ponto1);
-    ponto1.x = 4;
-    ponto1.y = 3;
-    putPixel(ponto1);
-    ponto1.x = 4;
-    ponto1.y = 4;
-    putPixel(ponto1);
+    ponto2.x = 50;
+    ponto2.y = 402;
+    putPixel(ponto2);
+    ponto3.x = 50;
+    ponto3.y = 403;
+    putPixel(ponto3);
+    ponto3.x = 50;
+    ponto3.y = 403;
     
     ponto1.cor.r = 0;
     ponto1.cor.g = 0;
@@ -149,8 +156,7 @@ void MyGlDraw(void) {
     ponto2.y = 100;
 
     drawLine(ponto1, ponto2);
-
-
+ 
     ponto1.x = 200;
     ponto1.y = 150;
     ponto1.cor.r = 255;
