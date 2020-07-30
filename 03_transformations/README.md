@@ -57,3 +57,7 @@ Após terminados os cálculos necessários, foram feitos vários testes para sab
     [0.0f, 0.0f, 1.0f, -1.0f,]
     [0.0f, 0.4f, 0.25f, 1.0f]
    ![exercicio5](https://github.com/matheusces/atividade1ICG/blob/master/exer5Print.png)
+   
+## Referências
+   - Slides disponibilizados pelo professor.
+   - Aulas gravadas.
